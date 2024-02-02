@@ -1,0 +1,148 @@
+/* RESET RULES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LAYOUT */
+
+/* header */
+.header-sec {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-header {
+    min-height: 25px;
+    background-color: rgb(233, 181, 10);
+}
+
+.header-logo {
+    flex-basis: 25%;
+}
+
+.header-login {
+    flex-basis: 25%;
+    text-align: end;
+}
+
+.header-link {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+/* main */
+.main-sec {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* prima sezione */
+.color-blu {
+    background-color: blue;
+}
+
+.purple {
+    background-color: plum;
+    min-height: 150px;
+}
+
+/* seconda e quarta sezione */
+.azzurro {
+    background-color: rgb(11, 131, 243);
+    min-height: 300px;
+    flex-basis: 65%;
+}
+
+.rosetto {
+    background-color: rgb(226, 90, 208);
+    min-height: 300px;
+    flex-basis: 35%;
+}
+
+/* terza sezione */
+.color-purple-blu {
+    flex-direction: row-reverse;
+}
+
+.color-grey {
+    background-color: lightgray;
+}
+
+/* quinta sezione */
+.color-green {
+    background-color: lightgray;
+}
+
+.color-green .container div {
+    background-color: rgb(9, 99, 17);
+    min-height: 550px;
+}
+
+/* sesta sezione */
+.color-salmon {
+    background-color: rgb(51, 51, 51);
+}
+
+.salmone {
+    background-color: salmon;
+    min-height: 400px;
+    flex-basis: 40%;
+}
+
+.azzurro-spento {
+    background-color: rgb(4, 112, 131);
+    min-height: 400px;
+    flex-basis: 15%;
+}
+
+/* footer */
+.footer-sec {
+    background-color: rgb(51, 51, 51);
+}
+
+.acqua {
+    background-color: aqua;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    justify-content: space-between;
+}
+
+.foot {
+    background-color: salmon;
+}
+
+/* DEBUG RULES */
+
+.debug .container {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.debug .row {
+    border: 3px solid red;
+}
+
+.debug .col {
+    border: 2px solid black;
+    /* min-height: 300px; */
+}
