@@ -186,14 +186,21 @@ a, li, .col-header {
 }
 
 .acqua {
-    background-color: aqua;
     padding-top: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 25px;
     justify-content: space-between;
 }
 
-.foot {
-    background-color: salmon;
+.end-btn {
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-radius: 17px;
+    line-height: 32px;
+    color: white;
+    background-color: #7C98DE;
+    width: 100px;
+    margin-right: 13px;
 }
 
 /* DEBUG RULES */
