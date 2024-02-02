@@ -40,13 +40,16 @@ a {
 .jst-content {
     justify-content: space-between;
     min-height: 25px;
-    /* background-color: rgb(233, 181, 10); */
 }
 
 .ul-center {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+a, li, .col-header {
+    color: white;
 }
 
 /* main */
@@ -56,30 +59,66 @@ a {
 }
 
 /* prima sezione */
-.color-blu { 
+.jumbo { 
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 } 
 
-.container-purple {
+.text-jumbo {
     max-width: 800px;
     margin: 0 auto;
     background-color: plum;
     min-height: 150px;
 }
 
+.text-jumbo h1, p, div {
+    color: white;
+    text-align: center;
+}
+
+.fake-btn {
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-radius: 17px;
+    line-height: 32px;
+}
+
+.bianco {
+    color: black;
+    background-color: white;
+    width: 140px;
+    margin-right: 13px;
+}
+
+.nero {
+    background-color: black;
+    width: 220px;
+}
+
+.text-jumbo p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
 /* seconda e quarta sezione */
 .azzurro {
-    background-color: rgb(11, 131, 243);
     min-height: 300px;
     width: calc( 2 * 100% / 3);
 }
 
 .rosetto {
-    background-color: rgb(226, 90, 208);
     min-height: 300px;
     width: calc( 100% / 3 );
+}
+
+.rosetto h2 {
+    color: black;
+}
+
+.rosetto p {
+    color: black;
 }
 
 /* terza sezione */
@@ -147,5 +186,4 @@ a {
 
 .debug .col {
     border: 2px solid black;
-    /* min-height: 300px; */
 }
