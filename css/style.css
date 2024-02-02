@@ -58,17 +58,23 @@ a, li, .col-header {
     padding-bottom: 15px;
 }
 
+.accedi {
+    color: black;
+    background-color: white;
+    width: 70px;
+}
+
 /* prima sezione */
 .jumbo { 
     background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 190px;
 } 
 
 .text-jumbo {
     max-width: 800px;
     margin: 0 auto;
-    background-color: plum;
     min-height: 150px;
 }
 
@@ -98,8 +104,8 @@ a, li, .col-header {
 }
 
 .text-jumbo p {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 /* seconda e quarta sezione */
@@ -111,6 +117,7 @@ a, li, .col-header {
 .rosetto {
     min-height: 300px;
     width: calc( 100% / 3 );
+    align-self: center;
 }
 
 .rosetto h2 {
