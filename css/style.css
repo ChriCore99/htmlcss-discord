@@ -143,8 +143,23 @@ a, li, .col-header {
 }
 
 .color-green .container div {
-    background-color: rgb(9, 99, 17);
     min-height: 550px;
+}
+
+.color-green p {
+    color: black;
+}
+
+.color-green h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.blu {
+    color: white;
+    background-color: rgb(37, 94, 233, 0.5);
+    width: 140px;
+    margin-right: 13px;
 }
 
 /* sesta sezione */
@@ -181,16 +196,3 @@ a, li, .col-header {
 }
 
 /* DEBUG RULES */
-
-.debug .container, .container-purple {
-    border: 3px solid black;
-    padding: 20px;
-}
-
-.debug .row {
-    border: 3px solid red;
-}
-
-.debug .col {
-    border: 2px solid black;
-}
