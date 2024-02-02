@@ -29,25 +29,19 @@ img {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.col-header {
+.jst-content {
+    justify-content: space-between;
     min-height: 25px;
     background-color: rgb(233, 181, 10);
 }
 
-.header-logo {
-    flex-basis: 25%;
-}
-
-.header-login {
-    flex-basis: 25%;
-    text-align: end;
-}
-
-.header-link {
-    flex-basis: 50%;
-    text-align: center;
+.ul-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* main */
