@@ -22,7 +22,7 @@ a {
 
 /* header */
 .header-sec {
-    background-color: aqua;
+    background-color: #255EE9;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -57,7 +57,9 @@ a {
 
 /* prima sezione */
 .color-blu { 
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 100%;
 } 
 
 .container-purple {
