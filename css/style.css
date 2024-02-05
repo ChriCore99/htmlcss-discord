@@ -21,9 +21,6 @@ a {
 /* LAYOUT */
 body {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-        font-weight: <weight>;
-    font-style: normal;
 }
 
 /* header */
@@ -82,6 +79,10 @@ a, li, .col-header {
     max-width: 800px;
     margin: 0 auto;
     min-height: 150px;
+}
+
+.text-jumbo h1 {
+    font-size: 40px;
 }
 
 .text-jumbo h1, p, div {
